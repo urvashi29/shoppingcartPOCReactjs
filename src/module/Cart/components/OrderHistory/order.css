@@ -1,0 +1,7 @@
+#shopping-button {
+    color: white;
+	cursor: pointer;
+	margin-bottom: 20px;
+	font-size: 14px;
+    box-shadow: 0 4px rgb(199, 194, 194);
+}

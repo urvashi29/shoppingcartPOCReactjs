@@ -1,0 +1,59 @@
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+#demo {
+	margin-top: 10px;
+}
+
+.carousel-indicators {
+	padding-top: 20px;
+}
+.megasale-image {
+	margin-left: 5px;
+	margin-right: 10px;
+	width: 390px;
+}
+
+.mockup-footer {
+	margin-top: 10px;
+	background: rgb(8, 3, 53);
+	width: 100%;
+}
+
+.footer-info {
+	font-size: 13px;
+	text-transform: capitalize;
+	color: white;
+	margin-left: 40px;
+}
+.footer-heading {
+	text-transform: uppercase;
+	color: grey;
+	font-size: 13px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.v {
+	border-left: 1px solid grey;
+}
+@media (max-width: 1250px) {
+	.megasale-image {
+		width: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.megasale-image {
+		width: 200px;
+		margin-bottom: 20px;
+		margin-left: 30px;
+	}
+	.footer-heading {
+		font-size: 12px;
+	}
+	.footer-info {
+		font-size: 12px;
+	}
+}

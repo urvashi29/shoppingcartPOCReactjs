@@ -1,0 +1,87 @@
+#searchInput {
+	width: 500px;
+	margin-left: 50px;
+}
+#item-dropdown {
+	font-size: 15px;
+	color: black;
+	margin-left: 40px;
+}
+
+#second-navbar {
+	border-bottom: 1px solid darkgray;
+	box-shadow: 0 1px grey;
+	margin-bottom: 10px;
+	font-size: 14px;
+	list-style-type: none;
+}
+.logo-image {
+	width: 60px;
+	height: 40px;
+	margin-left: 20px;
+}
+#navbarItem {
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.sale-block {
+	background: #0c7adb;
+	margin: auto 10px auto 10px;
+}
+
+#sale-image {
+	height: 140px;
+	width: 450px;
+}
+
+.mobile-image {
+	width: 100px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+#description {
+	margin-left: 220px;
+	color: white;
+}
+#modal-button{
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+#tab{
+	cursor: pointer;
+}
+
+@media (min-width: 700px) {
+	#second-navbar {
+		height: 50px;
+	}
+}
+@media (max-width: 770px) {
+	#searchInput {
+		width: 200px;
+	}
+	#sale-image {
+		width: 300px;
+	}
+	.mobile-image {
+		margin-left: 120px;
+		width: 70px;
+	}
+	#description {
+		margin-left: 140px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 425px) {
+	#description {
+		margin-left: 0px;
+		font-size: 10px;
+	}
+}

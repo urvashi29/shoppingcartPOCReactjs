@@ -1,0 +1,61 @@
+.savings {
+	color: green;
+}
+
+#card-text {
+	font-weight: bold;
+	color: rgb(223, 121, 121);
+	text-transform: capitalize;
+}
+
+#cart-card {
+	border: 0.5px solid rgb(196, 190, 190);
+}
+
+.cart-image {
+	margin: 10px auto 10px auto;
+	width: 120px;
+	height: 200px;
+}
+
+#checkout-button {
+	color: white;
+	cursor: pointer;
+	margin-bottom: 20px;
+	font-size: 14px;
+	box-shadow: 0 4px rgb(199, 194, 194);
+}
+
+#checkout-button:active {
+	box-shadow: 0 4px #666;
+	transform: translateY(4px);
+}
+
+#remove-button {
+	font-size: 14px;
+}
+
+#inc-button{
+	border-radius: 50%;
+	color:black;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+#dec-button{
+	border-radius: 50%;
+	color:black;
+	font-weight: bold;
+	width: 35px;
+	background-color: #f2f2f2;
+}
+
+.totalPrice {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.empty-cart {
+	color:rgb(226, 205, 12);
+	font-size: 20px;
+	font-family: 'Sedgwick Ave Display';
+}

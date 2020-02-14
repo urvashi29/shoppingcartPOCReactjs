@@ -1,0 +1,9 @@
+export const Add_To_Cart = "Add_To_Cart";
+export const ADD_TO_QUANTITY = "ADD_TO_QUANTITY";
+export const DELETE_QUANTITY = "DELETE_QUANTITY";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const GET_PARTICULAR_PRODUCT = "GET_PARTICULAR_PRODUCT";
+export const GET_DATA = "GET_DATA";
+export const AUTHENTICATE_USER = "AUTHENTICATE_USER"
+export const GET_MODAL_VALUE = "GET_MODAL_VALUE"
+export const GET_LOGGED = "GET_LOGGED"

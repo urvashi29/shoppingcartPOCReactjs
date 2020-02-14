@@ -1,0 +1,90 @@
+#cards {
+	width: 200px;
+	float: left;
+	height: 200px;
+	text-align: center;
+	height: 430px;
+	margin: 20px 0 0 50px;
+}
+
+.mob-img {
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.mob-img:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2); 
+	transform: scale(1.2); 
+}
+
+.discount-val {
+	color: green;
+}
+
+#card-text {
+	font-weight: bold;
+}
+
+#addtocart-button {
+	width: 150px;
+	margin-left: 20px;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 20px;
+	font-size: 14px;
+	box-shadow: 0 4px rgb(199, 194, 194);
+}
+
+#selected-quantity{
+	color: rgb(167, 59, 10);
+}
+#addtocart-button:active {
+	box-shadow: 0 4px #666;
+	transform: translateY(4px);
+}
+
+#product-detail {
+	margin-top: 40px;
+}
+
+#description-image {
+	margin-left: 160px;
+	height: 250px;
+	width: 180px;
+	box-shadow: 20px 20px 10px grey;
+}
+.savings {
+	color: green;
+}
+.mobile-name {
+	font-weight: bold;
+	text-transform: capitalize;
+	color:rgb(223, 121, 121);
+}
+
+.GoToCartlink {
+	color: #fff;
+}
+
+@media (max-width: 760px) {
+	#description-image {
+		margin-left: 50px;
+	}
+	#description-detail {
+		margin-left: 120px;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 1024px) {
+	.mob-img {
+		height: 150px;
+		padding-top: 20px;
+		margin-top: 0;
+	}
+	#cards {
+		height: 370px;
+		margin-left: 70px;
+	}
+}

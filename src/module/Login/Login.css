@@ -1,0 +1,26 @@
+.authInput {
+	width: 300px;
+	height: 40px;
+	font-size: 15px;
+	border: 2px solid rgb(24, 114, 150);
+	padding: 10px;
+}
+.modal-title{
+    font-weight: bold;
+    color: rgb(24, 114, 150);
+}
+#auth-button {
+	display: block;
+	font-size: 15px;
+	width: 300px;
+	height: 40px;
+	margin: auto;
+}
+.error-message {
+	color: rgb(255, 0, 0);
+	font-size: 15px;
+}
+
+#close-button{
+	margin-top: 20px;
+}
